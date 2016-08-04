@@ -1,0 +1,83 @@
+body {
+	  color: #fff;
+}
+
+@media (min-width: 510px) {
+	#content {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		padding-top: 20px;
+	}
+}
+
+#header {
+	padding-top: 20px;
+}
+
+h1#company-name {
+	font-weight: 700;
+	font-size: 5em;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	padding-top: 20px;
+}
+
+#subscribeForm {
+	border-radius: 10px;
+	color: #fff;
+}
+
+#logo-img-wrapper {
+	width: 230px;
+	height: 230px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#logo-img-wrapper img {
+	height: 100%;
+	width: 100%;
+}
+
+ul.nav {
+	list-style: none;
+}
+
+ul.nav li a {
+	text-decoration: none;
+	color: #ccc;
+	font-size: 0.8em;
+}
+
+/* 510px */
+
+@media (max-width: 510px) {
+
+	#content {
+		padding-top: 20px;
+	}
+
+	#logo-img-wrapper {
+		width: 175px;
+		height: 175px;
+	}
+
+	h1#company-name {
+		font-size: 3.5em;
+		letter-spacing: 0.1em;
+	}
+
+	input.email {
+		width: 300px;
+	}
+
+	input[type='text'],
+	input[type='number'],
+	textarea {
+	  font-size: 16px;
+	}
+
+
+}
